@@ -15,4 +15,9 @@ public class HomeController {
     public String goHome() {
         return "home";
     }
+
+    @RequestMapping(value = "/new", method = RequestMethod.GET)
+    public String sayHello() {
+        return "hello";
+    }
 }
