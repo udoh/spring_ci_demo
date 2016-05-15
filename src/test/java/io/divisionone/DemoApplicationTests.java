@@ -1,5 +1,6 @@
 package io.divisionone;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
@@ -15,4 +16,8 @@ public class DemoApplicationTests {
 	public void contextLoads() {
 	}
 
+	@Test
+	public void testSomething() {
+		Assert.fail();
+	}
 }
